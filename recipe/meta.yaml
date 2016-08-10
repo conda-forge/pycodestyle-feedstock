@@ -37,6 +37,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jakirkham
     - pmlandwehr
     - jjhelmus
     - sigmavirus24
