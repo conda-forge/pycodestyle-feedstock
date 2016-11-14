@@ -36,8 +36,11 @@ test:
 
 about:
   home: https://pycodestyle.readthedocs.io/
-  license: MIT License
+  license: MIT
+  license_family: MIT
   summary: 'Python style guide checker'
+  doc_url: https://pycodestyle.readthedocs.io/
+  dev_url: https://github.com/PyCQA/pycodestyle
 
 extra:
   recipe-maintainers:
