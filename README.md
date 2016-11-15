@@ -3,7 +3,7 @@ About pycodestyle
 
 Home: https://pycodestyle.readthedocs.io/
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `pycodestyle` available on your pl
 ```
 conda search pycodestyle --channel conda-forge
 ```
-
 
 
 About conda-forge
