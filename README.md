@@ -11,6 +11,18 @@ Summary: Python style guide checker
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pycodestyle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pycodestyle-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pycodestyle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pycodestyle-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pycodestyle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pycodestyle-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/version.svg)](https://anaconda.org/conda-forge/pycodestyle)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/downloads.svg)](https://anaconda.org/conda-forge/pycodestyle)
+
 Installing pycodestyle
 ======================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pycodestyle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pycodestyle-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pycodestyle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pycodestyle-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pycodestyle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pycodestyle-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/version.svg)](https://anaconda.org/conda-forge/pycodestyle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/downloads.svg)](https://anaconda.org/conda-forge/pycodestyle)
 
 
 Updating pycodestyle-feedstock
