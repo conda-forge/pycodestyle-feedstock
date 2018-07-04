@@ -14,14 +14,15 @@ Summary: Python style guide checker
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pycodestyle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pycodestyle-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pycodestyle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pycodestyle-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pycodestyle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pycodestyle-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pycodestyle-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pycodestyle-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/version.svg)](https://anaconda.org/conda-forge/pycodestyle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pycodestyle/badges/downloads.svg)](https://anaconda.org/conda-forge/pycodestyle)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pycodestyle-green.svg)](https://anaconda.org/conda-forge/pycodestyle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pycodestyle.svg)](https://anaconda.org/conda-forge/pycodestyle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pycodestyle.svg)](https://anaconda.org/conda-forge/pycodestyle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pycodestyle.svg)](https://anaconda.org/conda-forge/pycodestyle) |
 
 Installing pycodestyle
 ======================
