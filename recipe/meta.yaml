@@ -1,9 +1,9 @@
 {% set name = "pycodestyle" %}
 {% set version = "2.4.0" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "cbfca99bd594a10f674d0cd97a3d802a1fdef635d4361e1a2658de47ed261e3a" %}
-{%set build_num = "0" %}
+{% set compress_type = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash_val = "cbfca99bd594a10f674d0cd97a3d802a1fdef635d4361e1a2658de47ed261e3a" %}
+{% set build_num = "0" %}
 
 package:
   name: {{ name|lower }}
