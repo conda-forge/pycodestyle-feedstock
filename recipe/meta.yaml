@@ -1,8 +1,7 @@
 {% set name = "pycodestyle" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 {% set compress_type = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_val = "e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c" %}
+{% set hash_val = "c58a7d2815e0e8d7972bf1803331fb0152f867bd89adf8a01dfd55085434192e" %}
 {% set build_num = "0" %}
 
 package:
@@ -12,7 +11,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  sha256: {{ hash_val }}
 
 build:
   noarch: python
@@ -20,7 +19,7 @@ build:
     - pycodestyle = pycodestyle:_main
 
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -39,8 +38,9 @@ test:
 about:
   home: https://pycodestyle.readthedocs.io/
   license: MIT
+  license_file: LICENSE
   license_family: MIT
-  summary: 'Python style guide checker'
+  summary: Python style guide checker
   doc_url: https://pycodestyle.readthedocs.io/
   dev_url: https://github.com/PyCQA/pycodestyle
 
