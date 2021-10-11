@@ -40,6 +40,7 @@ Installing `pycodestyle` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `pycodestyle` can be installed with:
@@ -120,7 +121,6 @@ Feedstock Maintainers
 
 * [@dopplershift](https://github.com/dopplershift/)
 * [@jakirkham](https://github.com/jakirkham/)
-* [@jjhelmus](https://github.com/jjhelmus/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 * [@sigmavirus24](https://github.com/sigmavirus24/)
