@@ -1,39 +1,36 @@
 {% set name = "pycodestyle" %}
 {% set version = "2.9.0" %}
-{% set compress_type = "tar.gz" %}
-{% set hash_val = "beaba44501f89d785be791c9462553f06958a221d166c64e1f107320f839acc2" %}
-{% set build_num = "0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  sha256: {{ hash_val }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycodestyle-{{ version }}.tar.gz
+  sha256: beaba44501f89d785be791c9462553f06958a221d166c64e1f107320f839acc2
 
 build:
-  noarch: python
   entry_points:
     - pycodestyle = pycodestyle:_main
-
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python =2.7|>=3.5
-    - setuptools
-
+    - python >=3.6
   run:
-    - python =2.7|>=3.5
+    - python >=3.6
 
 test:
+  imports:
+    - pycodestyle
   commands:
+    - pip check
     - pycodestyle --help
-    - pycodestyle --version
+  requires:
+    - pip
 
 about:
   home: https://pycodestyle.readthedocs.io/
