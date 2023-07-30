@@ -1,11 +1,11 @@
-About pycodestyle
-=================
+About pycodestyle-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycodestyle-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pycodestyle.readthedocs.io/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycodestyle-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python style guide checker
 
