@@ -1,5 +1,5 @@
 {% set name = "pycodestyle" %}
-{% set version = "2.11.0" %}
+{% set version = "2.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycodestyle-{{ version }}.tar.gz
-  sha256: 259bcc17857d8a8b3b4a2327324b79e5f020a13c16074670f9c8c8f872ea76d0
+  sha256: 41ba0e7afc9752dfb53ced5489e89f8186be00e599e712660695b7a75ff2663f
 
 build:
   entry_points:
