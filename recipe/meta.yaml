@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycodestyle-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycodestyle-{{ version }}.tar.gz
   sha256: 6838eae08bbce4f6accd5d5572075c63626a15ee3e6f842df996bf62f6d73521
 
 build:
@@ -14,14 +14,14 @@ build:
     - pycodestyle = pycodestyle:_main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -31,6 +31,7 @@ test:
     - pycodestyle --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pycodestyle.readthedocs.io/
