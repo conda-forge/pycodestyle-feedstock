@@ -45,6 +45,8 @@ about:
 
 extra:
   recipe-maintainers:
+    - jjhelmus
+    - pmlandwehr
     - jakirkham
     - sigmavirus24
     - dopplershift
